@@ -12,8 +12,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-                    // 'YOUR_EMAILJS_SERVICE_ID', 'YOUR_EMAILJS_TEMPLATE_ID', form.current, 'YOUR_EMAILJS_PUBLIC_KEY'
-    emailjs.sendForm('', '', form.current, '')
+    // 'YOUR_EMAILJS_SERVICE_ID', 'YOUR_EMAILJS_TEMPLATE_ID', form.current, 'YOUR_EMAILJS_PUBLIC_KEY'
+    emailjs.sendForm("", "", form.current, "");
 
     e.target.reset();
   };
@@ -55,8 +55,13 @@ const Contact = () => {
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+1234....</h5>
-            <a href="https://wa.me/254708230803" target="_
-            ">Send a message</a>
+            <a
+              href="https://wa.me/254708230803"
+              target="_
+            "
+            >
+              Send a message
+            </a>
           </article>
         </div>
 
@@ -86,5 +91,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-export default Contact
